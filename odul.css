@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #222;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.reward-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.reward-item {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.reward-item h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.reward-item p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.reward-item.red {
+    border-color: red;
+    color: red;
+}
+
+.reward-item.orange {
+    border-color: orange;
+    color: orange;
+}
+
+.reward-item.yellow {
+    border-color: gold;
+    color: gold;
+}
+
+.reward-item.gray {
+    border-color: gray;
+    color: gray;
+}
